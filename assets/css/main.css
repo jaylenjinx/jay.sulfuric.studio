@@ -103,7 +103,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #333;
+		background: #000;
 		overflow-x: hidden;
 	}
 
@@ -157,12 +157,12 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #333;
-		color: #fff;
+		background-color: #000;
+		color: #fce8f3;
 	}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #fce8f3;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
@@ -187,7 +187,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 600;
-		color: #fff;
+		color: #82d4c9b0;
 	}
 
 	em, i {
@@ -1961,7 +1961,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #49fcd4;
+			background-color: #9efff2b0;
 			box-shadow: none;
 			color: #000000 !important;
 		}
@@ -2248,15 +2248,15 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			content: '\f00c';
-			background-color: #49fcd4;
-			border-color: #49fcd4;
+			background-color: #9efff2b0;
+			border-color: #9efff2b0;
 			color: #ffffff;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49fcd4;
-			box-shadow: 0 0 0 1px #49fcd4;
+			border-color: #9efff2b0;
+			box-shadow: 0 0 0 1px #9efff2b0;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -3176,7 +3176,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				color: #fff;
+				color: #5b928bb0;
 				display: block;
 				font-size: 1.25rem;
 				height: 3.25rem;
@@ -3218,7 +3218,7 @@ input, select, textarea {
 
 		#wrapper:before {
 			background-attachment: fixed;
-			background-color: #49fcd4;
+			background-color: #9efff2b0; 
 			background-position: -50% 10%;
 			background-repeat: repeat-y;
 			background-size: 75% auto;
@@ -3285,7 +3285,7 @@ input, select, textarea {
 		}
 
 			#wrapper > section > header:before {
-				background: #43d9b8;
+				background: #063736;
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3298,7 +3298,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
-					background: #43d9b8;
+					background: #063736;
 					content: '';
 					display: block;
 					height: 2px;
@@ -3307,7 +3307,7 @@ input, select, textarea {
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
-					background: #43d9b8;
+					background: #063736;
 					border-radius: 0.5rem;
 					content: '';
 					display: block;
@@ -3364,7 +3364,7 @@ input, select, textarea {
 			}
 
 			#wrapper > section:last-of-type > header:after {
-				background: #43d9b8;
+				background: #063736;
 				border-radius: 0.5rem;
 				bottom: -1.5rem;
 				content: '';
@@ -3582,7 +3582,7 @@ input, select, textarea {
 
 					#wrapper > section > header {
 						background-attachment: fixed;
-						background-color: #49fcd4;
+						background-color: #9efff2b0;
 						background-position: 25% 50%;
 						background-repeat: repeat-y;
 						background-size: 40rem auto;
